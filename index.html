@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhakti's-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18,18,62);
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+            
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+
+        }
+        nav ul li a {
+            text-decoration: none;
+           color:white
+
+        }
+        nav ul li a:hover{
+            color:rgb(152, 152, 197);
+            font-size: 1.02;
+           
+        }
+        main hr {
+            border: 60;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .firstSection{
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            margin: 130px 0;
+
+
+        }
+
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2.5rem;
+           
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+            
+        }
+        .leftSection .btn a{
+            padding: 12px;
+            background: #1e2167;
+            color:white;
+            border:2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor:pointer;
+        }
+
+        .rightSection .png{
+            width: 80%;
+            
+            
+        }
+        .skills ul{
+            list-style: none;
+        }
+        .skills{
+            height: 50vh;
+            text-align: center;
+            
+        }
+        .skills h2{
+            margin-bottom: 30px;
+        }
+
+        .purple{
+            color:rgb(180, 126, 231);
+        }
+
+        .text-gray{
+            color:rgb(207, 204, 204);
+            font-size: 1.5rem;
+        }
+        #element{
+            color:rgb(180, 126, 231);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        
+        
+        footer{
+            background-color: rgb(0, 0, 0);
+            height: 150px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer-rights{
+            text-align: center;
+            color:gray;
+            padding: 12px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Bhakti's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Resume.pdf">Resume</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="Home">
+        <div class="leftSection">
+            Hi, My Name is <span class="purple"> Bhakti</span>
+            
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn"><a href="Resume.pdf" target="_blank">Download Resume</a></button>
+                <button class="btn"> <a href="">Visit Github</a></button>
+            </div>
+        </div>
+        <div class="rightSection">
+            <img src="bg.png" alt="">
+        </div>
+        </section>
+<hr>
+        <section class="secondSection" id="About">
+            <h1>About </h1>
+            <span class="text-gray">Hello, I'm Bhakti, a passionate web developer with a creative edge. 
+            I believe that the digital world offers endless opportunities for innovation and problem-solving, 
+            and I'm excited to be a part of it.
+            I hold a Bachelor's degree in information technology from Mumbai University, 
+            where I honed my programming skills and developed a strong foundation in web development.
+            I'm dedicated to crafting web experiences that not only look great but also function flawlessly.
+            Accessibility and performance optimization are at the core of my development process. 
+            I'm committed to staying updated with the latest trends and best practices to deliver top-notch solutions.
+        </span>
+        </section>
+<hr>
+        <section class="skills" id="Skills" >
+            <h2>Skills</h2>
+            <ul class="div " style="width: 100%; display:flex; gap: 2rem; margin:10px; justify-content: center; align-items: center;">
+                <li><img src="html-removebg-preview.png" alt="" srcset=""></li>
+                <li><img src="css-removebg-preview.png" alt="" srcset="" width="60%"></li>
+                <li><img src="js-removebg-preview.png" alt="" width="50%"></li>
+            </ul>
+        </section>
+      
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Bhakti's Developer Portfolio</h3>
+            </div>
+           
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>About</li>
+                </ul>
+                
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Projects</li>
+                </ul>
+
+            </div>
+            <div class="footer-fifth" id="contact">
+                <h4>contact</h4>
+                <ul>
+                    <li>8767724112</li>
+                </ul>
+
+            </div>
+        </div>
+        
+        <div class="footer-rights">
+            www.bhaktisportfolio.com /
+            bhaktiyadav15aug@gmail.com/9004137105
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Web Designer'],
+          typeSpeed: 50,
+        });
+        </script>
+</body>
+
+</html>
